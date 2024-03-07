@@ -1,15 +1,30 @@
-h3 {
-    color: rgb(255, 255, 255);
-    font-family: fantasy;
-    font-size: 35px;
+body {
+    background-color: black;
 }
 
-p {
-    color: black;
-    font-family: fantasy;
-    font-size: 20px;
+h2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: lightskyblue;
 }
 
-.divcarrusel {
-    width: 400px;
+.p_1 {
+    text-align: center;
+    color: lightcoral;
+}
+
+.sidebar {
+    width: 25%;
+    float: right;
+    border: 2px solid rgb(255, 0, 0);
+}
+
+.container_fotos_padre {
+    width: 75%;
+    display: flex;
+    flex-flow: row;
+}
+
+.tamaño_completo {
+   width: 75%; 
 }
