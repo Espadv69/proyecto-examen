@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: black;
 }
@@ -13,18 +17,9 @@ h2 {
     color: lightcoral;
 }
 
-.sidebar {
-    width: 25%;
-    float: right;
-    border: 2px solid rgb(255, 0, 0);
-}
-
-.container_fotos_padre {
-    width: 75%;
+#input {
     display: flex;
-    flex-flow: row;
-}
-
-.tamaño_completo {
-   width: 75%; 
+    flex-flow: column;
+    width: 30%;
+    border: 1px solid blue;
 }
